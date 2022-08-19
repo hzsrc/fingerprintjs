@@ -1,6 +1,6 @@
 {
-  "name": "@fingerprintjs/fingerprintjs",
-  "description": "Browser fingerprinting library with the highest accuracy and stability",
+  "name": "fingerprintjs-safe",
+  "description": "Browser fingerprinting library with the highest accuracy and stability. Drop dom_blockers.ts, for unsafe urls",
   "version": "3.3.4",
   "keywords": [
     "fraud",
@@ -85,5 +85,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
