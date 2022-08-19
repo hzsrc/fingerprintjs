@@ -21,7 +21,7 @@ import getPlatform from './platform'
 import getVendor from './vendor'
 import getVendorFlavors from './vendor_flavors'
 import areCookiesEnabled from './cookies_enabled'
-import getDomBlockers from './dom_blockers'
+//import getDomBlockers from './dom_blockers'
 import getColorGamut from './color_gamut'
 import areColorsInverted from './inverted_colors'
 import areColorsForced from './forced_colors'
@@ -49,7 +49,7 @@ export const sources = {
   // The sources run in this exact order.
   // The asynchronous sources are at the start to run in parallel with other sources.
   fonts: getFonts,
-  domBlockers: getDomBlockers,
+  //domBlockers: getDomBlockers,
   fontPreferences: getFontPreferences,
   audio: getAudioFingerprint,
   screenFrame: getRoundedScreenFrame,
